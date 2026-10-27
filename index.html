@@ -50,7 +50,7 @@
 /* SETUP: replace both values with your Supabase Project URL and public anon/publishable key.
    Never put a service_role key or Daraja secret in this file. */
 const SUPABASE_URL = "https://rnvvgothbvevqueghzvm.supabase.co";
-const SUPABASE_ANON_KEY = "sb_publishable_BQuqZuh2MN0fiFX1fBdX7Q_KGvr9Oot";
+const SUPABASE_ANON_KEY = "sb_secret_AZF2f0-GfHP-LAAalclzsw_C8DhPbbo";
 const configured = SUPABASE_URL.startsWith("https://") && !SUPABASE_URL.includes("YOUR_PROJECT");
 const db = configured ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
 
